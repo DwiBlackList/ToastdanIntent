@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".detil_orangejuice">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15pt"
+        app:srcCompat="@drawable/orangejuice" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Orange Juice"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/sisaOrangeJus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3pt"
+        android:text="Menu Tersisa : 0"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3pt"
+        android:text="Orange Juice yang fresh "
+        android:textSize="18sp" />
+</LinearLayout>
